@@ -1,0 +1,33 @@
+#chess-board {
+    border: #606060 2px solid;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: min-content;
+}
+.board-square {
+    height: 60px;
+    width: 60px;
+}
+
+.square-id {
+    font-size: small;
+}
+.square-content {
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.background-dark {
+    background: #ae8a68;
+}
+.background-light {
+    background: #ecdab9;
+}
+
+.dark {
+    color: #555352;
+}
+.light {
+    color: #ffffff;
+}
