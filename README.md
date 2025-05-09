@@ -56,11 +56,13 @@
 --- 
 <h2>Preparation</h2>
 
-1. Rename [.env.example] file to [.env], then update the variable value based on your local configuration.
-2. Database<br />
+1. Clone the project.
+2. Run command line<pre>composer install</pre>
+3. Rename [.env.example] file to [.env], then update the variable value based on your local configuration.
+4. Database<br />
    a. Create database name: [_chess_db_].<br />
    b. Migrate the table with command line <pre>php artisan migrate</pre>
-3. Update the variable value on [phpunit.xml] file based on your local configuration.
+5. Update the variable value on [phpunit.xml] file based on your local configuration.
 
 
 --- 
