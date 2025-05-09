@@ -4,8 +4,9 @@
 <h2>Requirement</h2>
 
 1. PHP
-2. Mysql
-3. Laravel
+2. Composer
+3. Mysql
+4. Laravel
 
 --- 
 <h2>Structure Folder and Custom File</h2>
